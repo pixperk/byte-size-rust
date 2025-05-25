@@ -1,0 +1,23 @@
+# Ignore build artifacts and debug info for every crate
+**/target/
+**/debug/
+
+# Ignore Cargo.lock in library crates (default)
+**/Cargo.lock
+
+# Ignore rustfmt backup files
+**/*.rs.bk
+
+# Ignore Windows debug symbols
+**/*.pdb
+
+# Ignore environment variable files
+**/.env
+
+# OS junk
+**/.DS_Store
+**/Thumbs.db
+
+# Optional: Ignore IDE config
+**/.idea/
+**/.vscode/
