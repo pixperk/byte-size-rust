@@ -23,7 +23,7 @@ Welcome to **Byte-Size Rust**, a daily micro-project series where I build and sh
 
 ## Why Byte-Size Projects?
 
-- **Focused Learning**: Small projects help isolate and understand one concept at a time[2].
+- **Focused Learning**: Small projects help isolate and understand one concept at a time.
 - **Consistency**: Daily practice builds habits and confidence.
 - **Shareable**: Each project is easy to review, remix, and share with others.
 - **Foundation for Bigger Ideas**: These micro-projects can become building blocks for larger applications.
@@ -49,7 +49,7 @@ Welcome to **Byte-Size Rust**, a daily micro-project series where I build and sh
 - **Ownership**: Values have a single owner in Rust; moving them transfers responsibility.
 - **Borrowing**: References allow safe access to data without transferring ownership.
 - **Mutability**: Variables are immutable by default; use `mut` for mutability.
-- **Lifetimes**: Borrowed data must not outlive its owner, enforced by the borrow checker[1].
+- **Lifetimes**: Borrowed data must not outlive its owner, enforced by the borrow checker.
 
 These concepts are foundational to writing safe and efficient Rust code.
 
