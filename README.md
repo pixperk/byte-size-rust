@@ -16,7 +16,7 @@ Welcome to **Byte-Size Rust**, a daily micro-project series where I build and sh
 
 ## About This Series
 
-**Byte-Size Rust** is my commitment to building one small Rust project every day. Each project is intentionally kept minimal—often just a few lines or a single file—yet is focused on exploring a specific Rust feature, idiom, or best practice. This approach is inspired by the idea that frequent, focused practice is the fastest way to mastery[2].
+**Byte-Size Rust** is my commitment to building one small Rust project every day. Each project is intentionally kept minimal—often just a few lines or a single file—yet is focused on exploring a specific Rust feature, idiom, or best practice. This approach is inspired by the idea that frequent, focused practice is the fastest way to mastery.
 
 ---
 
