@@ -8,8 +8,8 @@ Welcome to **Byte-Size Rust**, a daily micro-project series where I build and sh
 
 - [About This Series](#about-this-series)
 - [Why Byte-Size Projects?](#why-byte-size-projects)
+- [Project Index](#project-index)
 - [How to Run](#how-to-run)
-- [What I Learned Today](#what-i-learned-today)
 - [Next Steps](#next-steps)
 
 ---
@@ -30,34 +30,55 @@ Welcome to **Byte-Size Rust**, a daily micro-project series where I build and sh
 
 ---
 
-## How to Run
+## Project Index
 
-1. Ensure you have [Rust installed](https://www.rust-lang.org/tools/install).
-2. Clone this repository or copy the code for today's project.
-3. Run the project using Cargo:
+Here's a chronological list of all the daily micro-projects in this series:
 
-   ```bash
-   cargo run
-   ```
+### [Day 1: Ownership & Borrowing](/day1_ownership_borrowing/)
+A hotel management system that demonstrates Rust's ownership, borrowing, and lifetime concepts.
+- [Detailed Write-up](/day1_ownership_borrowing/day1.md)
+- Key concepts: Ownership transfer, borrowing, mutable references, lifetimes
 
-4. You should see output demonstrating the ownership and borrowing mechanics in action.
+### [Day 2: Traits & Modular Design](/day2_traits_and_modular_design/)
+A system information CLI tool showcasing traits, modules, and the Clap crate for argument parsing.
+- [Detailed Write-up](/day2_traits_and_modular_design/day2.md)
+- Key concepts: Traits, modules, polymorphism, command-line argument parsing
 
 ---
 
-## What I Learned Today
+## How to Run
 
-- **Ownership**: Values have a single owner in Rust; moving them transfers responsibility.
-- **Borrowing**: References allow safe access to data without transferring ownership.
-- **Mutability**: Variables are immutable by default; use `mut` for mutability.
-- **Lifetimes**: Borrowed data must not outlive its owner, enforced by the borrow checker.
+Each project has its own directory with a standalone Rust project:
 
-These concepts are foundational to writing safe and efficient Rust code.
+1. Ensure you have [Rust installed](https://www.rust-lang.org/tools/install).
+2. Navigate to the specific day's directory:
+   ```bash
+   cd day1_ownership_borrowing
+   ```
+3. Run the project using Cargo:
+   ```bash
+   cargo run
+   ```
+4. For projects with command-line arguments (like Day 2), you can pass flags:
+   ```bash
+   cargo run -- --help  # View available options
+   cargo run -- --all   # Show all information
+   ```
+
+Each project directory contains a detailed markdown file explaining the concepts and implementation details.
 
 ---
 
 ## Next Steps
 
-- Tomorrow, I'll tackle a new Rust concept or library in another byte-size project.
+Here are some concepts I plan to explore in upcoming byte-size projects:
+
+- **Error Handling**: Custom error types and the `Result` type
+- **Smart Pointers**: `Box<T>`, `Rc<T>`, and `RefCell<T>`
+- **Concurrency**: Threads, message passing, and shared state
+- **Async/Await**: Non-blocking I/O with Rust's async ecosystem
+- **Advanced Traits**: Associated types, default implementations, and trait objects
+- **Macros**: Procedural and declarative macros for code generation
 
 ---
 
