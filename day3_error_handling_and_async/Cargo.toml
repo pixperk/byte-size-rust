@@ -1,0 +1,12 @@
+[package]
+name = "day3_error_handling_and_async"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.38", features = ["full"] }
+axum = "0.7"
+reqwest = { version = "0.12", features = ["json", "stream", "gzip", "brotli", "deflate", "cookies", "multipart", "rustls-tls"] }
+hyper = { version = "1.2", features = ["full"] }
+tower = "0.4"
+thiserror = "1.0"

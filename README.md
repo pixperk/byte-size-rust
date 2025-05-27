@@ -44,6 +44,11 @@ A system information CLI tool showcasing traits, modules, and the Clap crate for
 - [Detailed Write-up](/day2_traits_and_modular_design/day2.md)
 - Key concepts: Traits, modules, polymorphism, command-line argument parsing
 
+### [Day 3: Error Handling & Async Programming](/day3_build_a_reverse_proxy/)
+A lightweight HTTP reverse proxy server built with Axum and Tokio for asynchronous request handling.
+- [Detailed Write-up](/day3_build_a_reverse_proxy/day3.md)
+- Key concepts: Custom error types, async/await, HTTP request/response handling, modular code organization
+
 ---
 
 ## How to Run
@@ -73,12 +78,12 @@ Each project directory contains a detailed markdown file explaining the concepts
 
 Here are some concepts I plan to explore in upcoming byte-size projects:
 
-- **Error Handling**: Custom error types and the `Result` type
 - **Smart Pointers**: `Box<T>`, `Rc<T>`, and `RefCell<T>`
 - **Concurrency**: Threads, message passing, and shared state
-- **Async/Await**: Non-blocking I/O with Rust's async ecosystem
 - **Advanced Traits**: Associated types, default implementations, and trait objects
 - **Macros**: Procedural and declarative macros for code generation
+- **Web Frameworks**: Actix, Rocket, or Warp for web application development
+- **Database Integration**: Working with SQLx, Diesel, or other database libraries
 
 ---
 
