@@ -46,7 +46,7 @@ A system information CLI tool showcasing traits, modules, and the Clap crate for
 
 ### [Day 3: Error Handling & Async Programming](/day3_build_a_reverse_proxy/)
 A lightweight HTTP reverse proxy server built with Axum and Tokio for asynchronous request handling.
-- [Detailed Write-up](/day3_build_a_reverse_proxy/day3.md)
+- [Detailed Write-up](/day3_error_handling_and_async/day3.md)
 - Key concepts: Custom error types, async/await, HTTP request/response handling, modular code organization
 
 ---
