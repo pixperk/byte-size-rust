@@ -46,8 +46,13 @@ A system information CLI tool showcasing traits, modules, and the Clap crate for
 
 ### [Day 3: Error Handling & Async Programming](/day3_build_a_reverse_proxy/)
 A lightweight HTTP reverse proxy server built with Axum and Tokio for asynchronous request handling.
-- [Detailed Write-up](/day3_error_handling_and_async/day3.md)
+- [Detailed Write-up](/day3_build_a_reverse_proxy/day3.md)
 - Key concepts: Custom error types, async/await, HTTP request/response handling, modular code organization
+
+### [Day 4: gRPC Chat with Bidirectional Streaming](/day4_chat_with_grpc/)
+A real-time chat application using gRPC for bidirectional streaming communication between server and clients.
+- [Detailed Write-up](/day4_chat_with_grpc/day4.md)
+- Key concepts: Protocol Buffers, gRPC, bidirectional streaming, multi-binary projects
 
 ---
 
@@ -69,6 +74,11 @@ Each project has its own directory with a standalone Rust project:
    cargo run -- --help  # View available options
    cargo run -- --all   # Show all information
    ```
+5. For multi-binary projects (like Day 4), you can use the provided Makefile:
+   ```bash
+   make server  # Run the server
+   make client  # Run the client
+   ```
 
 Each project directory contains a detailed markdown file explaining the concepts and implementation details.
 
@@ -82,8 +92,8 @@ Here are some concepts I plan to explore in upcoming byte-size projects:
 - **Concurrency**: Threads, message passing, and shared state
 - **Advanced Traits**: Associated types, default implementations, and trait objects
 - **Macros**: Procedural and declarative macros for code generation
-- **Web Frameworks**: Actix, Rocket, or Warp for web application development
-- **Database Integration**: Working with SQLx, Diesel, or other database libraries
+- **FFI and Unsafe Rust**: Interfacing with C libraries and unsafe code patterns
+- **Embedded Rust**: Programming for microcontrollers and embedded devices
 
 ---
 
